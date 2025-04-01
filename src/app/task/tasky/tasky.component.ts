@@ -5,8 +5,6 @@ import { DatePipe } from '@angular/common';
 import { TasksService } from '../tasks.service';
 @Component({
   selector: 'app-tasky',
-  standalone: true,
-  imports: [CardComponent, DatePipe],
   templateUrl: './tasky.component.html',
   styleUrl: './tasky.component.css',
 })
